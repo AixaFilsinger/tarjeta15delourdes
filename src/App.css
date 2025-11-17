@@ -17,7 +17,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
- background-color: #FFFEF7;
+ background-color:#bdebff;
   
 }
 
@@ -31,18 +31,22 @@ body{
   font-weight: normal;
   font-style: normal;
 }
-.fondo1{
-  background: url(./assets/fondoultimo.png) no-repeat;
+.inicio{
+  width: 100%;
+  height: 100dvh;
+  background: url(/src/assets/fondoini.png);
   background-size: cover;
+ 
 }
+
 
 
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #8D9F6C;
-  margin-bottom: 18rem;
+  
   position: relative;
   z-index: 2;
 }
@@ -76,29 +80,46 @@ body{
   right: -65px;
 }
 
-.portada {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+/* --- ESTILOS PARA EL CONTENEDOR PADRE --- */
+.marco {
+    position: relative; /* ¡CRUCIAL! Los hijos absolutos se posicionarán respecto a este. */
+    display: inline-block; /* Esto asegura que el `article` se ajuste al tamaño de la imagen */
+    /* Puedes ajustar el width si el de la imagen no es suficiente */
+    /* width: 300px; */ 
+    line-height: 0; /* Esto ayuda a eliminar espacio extra debajo de la imagen */
 }
 
-/* Imágenes laterales decorativas */
-.decor {
-  position: absolute;
-  width: 100px;          /* tamaño ideal móvil */
-  /*opacity: 0.8;*/
-  z-index: 1;
+/* --- ESTILOS PARA LA IMAGEN DE FONDO --- */
+.marco .imagen-fondo {
+    display: block; /* Elimina espacio extra debajo de la imagen si la tienes como inline */
+    width: 605px; /* Asegura el tamaño de la imagen, si no lo has definido en el HTML */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
-.decor-izq {
-  left: 10px;
-  bottom: 2rem;
+/* --- ESTILOS PARA EL H1 QUE VA ENCIMA Y CENTRADO --- */
+.nombre-superpuesto {
+    position: absolute; /* Saca el h1 del flujo normal y lo posiciona. */
+    
+    /* Centrado perfecto: */
+    top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
+    left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
+    transform: translate(-110%, -800%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+
+    /* Tus estilos de fuente existentes: */
+    font-family: 'Amoresa', cursive;
+    font-size: 6rem; /* Ajusta este valor si es necesario */
+    color: #8D9F6C;
+    
+    /* Muy importante: elimina cualquier margen que pueda desplazarlo */
+    margin: 0; 
+    padding: 0;
+    
+    /* Asegura que el texto esté encima de la imagen */
+    z-index: 10; 
 }
 
-.decor-der {
-  right: -10px;
-  bottom: 3.5rem;
-}
+/* Estilos existentes que pueden afectar (ajusta o elimina si causan conflicto) */
+
 .enfoque span {
   display: inline-block;
   opacity: 0;
@@ -112,6 +133,57 @@ body{
     transform: scale(1);
   }
 }
+.portada.contenedor-marco-principal {
+    position: relative; /* ¡CRUCIAL! Los elementos absolutos (.esquina) se anclan a sus límites. */
+    
+    /* Define la altura total que quieres enmarcar. Por ejemplo, pantalla completa: */
+    min-height: 100vh; 
+    
+    /* Opcional: Esto asegura que el contenido interno se centre verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Opcional: si la rotación hace que las esquinas se salgan del área visible */
+    overflow: hidden; 
+}
+.esquina {
+    position: absolute; /* Saca la imagen del flujo y la ancla al padre */
+    width: 150px; /* AJUSTA este tamaño */
+    height: auto;
+    z-index: 5; 
+    display: block;
+    
+    /* ELIMINAMOS 'transform-origin' ya que no hay rotación */
+}
+/* 1. Superior Izquierda */
+.esquina.superior-izquierda {
+    top: 0;
+    left: 0;
+    /* Sin 'transform: rotate()' */
+}
+
+/* 2. Superior Derecha */
+.esquina.superior-derecha {
+    top: 0;
+    right: 0;
+    /* Sin 'transform: rotate()' */
+}
+
+/* 3. Inferior Derecha */
+.esquina.inferior-derecha {
+    bottom: 0;
+    right: 0;
+    /* Sin 'transform: rotate()' */
+}
+
+/* 4. Inferior Izquierda */
+.esquina.inferior-izquierda {
+    bottom: 0;
+    left: 0;
+    /* Sin 'transform: rotate()' */
+}
 
 /* Ajustes finos para pantallas más pequeñas */
 @media (max-width: 480px) {
@@ -121,10 +193,44 @@ body{
   }
 }
 
-.repro{
-  margin-top: 10rem;
-  height: 18rem;
-  
+.music-player-card {
+  width: 340px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15); /* fondo semi-transparente */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px; /* rectángulo con bordes ovalados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px); /* efecto vidrio */
+  -webkit-backdrop-filter: blur(10px);
+  margin: auto;
+}
+
+.song-title {
+  font-weight: bold;
+  color: black; /* texto blanco */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.btn-music {
+  background-color: white; /* botón blanco */
+  color: black; /* ícono carmesí */
+  border: none;
+  padding: 8px 14px;
+  border-radius: 50%; /* botón redondo */
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.btn-music:hover {
+   background-color: black; /* O tu código de rojo vino preferido */
+  color: white; /* ícono blanco */
+}
+
+.progress-bar {
+  width: 100%;
+  margin-top: 12px;
+  accent-color: white; /* barra blanca */
 }
 .frase{
   margin-bottom: 8rem;
@@ -171,7 +277,7 @@ small{
 }
 
 .btn-music {
-  background-color: #749764; /* botón blanco */
+  background-color: rgb(212, 175, 55); /* botón blanco */
   color: white; /* ícono color vino */
   border: none;
   padding: 10px 15px;
@@ -182,7 +288,7 @@ small{
 }
 
 .btn-music:hover {
-  background-color: rgb(212, 175, 55);
+  background-color: #bdebff;
   color: white;
   transform: scale(1.1);
 }
@@ -352,5 +458,7 @@ small{
 .color-circle.verde {
   background-color: #749764;
 }
+
+
 
 

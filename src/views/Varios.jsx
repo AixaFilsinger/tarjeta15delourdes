@@ -1,10 +1,10 @@
 import brillo from "../assets/star.png";
-import boladisco from "../assets/boladiscoN.png";
-import dressCode from "../assets/dresscodeN.png";
+import boladisco from "../assets/zapatos.png";
+import dressCode from "../assets/cenicienta.png";
 import Notamusical from "../assets/disco.png";
-import copas from "../assets/copasN.png";
-import asistencia from "../assets/invitacionN.png";
-import regalo from "../assets/regaloN.png";
+import copas from "../assets/reloj.png";
+import asistencia from "../assets/boligrafo.png";
+import regalo from "../assets/regalo.png";
 import qr from "../assets/qr.jpeg";
 
 import { useState } from "react";
@@ -25,15 +25,15 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Fiesta
+                ¿Cuando?
               </h4>
               <p
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                24 de Octubre <br />
-                22hs
+                6 de Diciembre <br />
+                21hs a 05hs
               </p>
             </aside>
             <aside className="col-xs-12 text-center donde mb-4 position-relative">
@@ -51,9 +51,9 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Salón Rancho Don José
+                Salón Geminis
                 <br />
-                Alto verde.
+                Alderetes
               </p>
               <button
                 className="btn-varios mt-3 mb-5"
@@ -82,8 +82,8 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Elegante Sport
-                <br /> Evitar el color verde
+                Elegante
+                <br /> Evitar el color celeste y azul
               </p>
               <div className="color-palette">
                 <div className="color-circle verde" title="Verde"></div>
