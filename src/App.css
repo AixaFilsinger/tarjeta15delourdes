@@ -105,7 +105,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-215%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-150%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
@@ -125,7 +125,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-210%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-150%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
