@@ -1,7 +1,8 @@
 import { Carousel } from "react-bootstrap";
-import foto1 from "../assets/carru1.jpg"
-import foto2 from "../assets/carru2.jpg"
-import foto3 from "../assets/fotoportada.webp"
+import foto1 from "../assets/carru2.jpeg"
+import foto2 from "../assets/carru1.jpeg"
+import foto3 from "../assets/carru3.jpeg"
+import foto4 from "../assets/carru4.jpeg"
 
 const Carrusel = () => {
   return (
@@ -28,6 +29,13 @@ const Carrusel = () => {
             className="d-block w-100 rounded-3 shadow"
             src={foto3}
             alt="Foto 3"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 rounded-3 shadow"
+            src={foto4}
+            alt="Foto 4"
           />
         </Carousel.Item>
       </Carousel>

@@ -5,7 +5,7 @@ import Notamusical from "../assets/disco.png";
 import copas from "../assets/reloj.png";
 import asistencia from "../assets/boligrafo.png";
 import regalo from "../assets/regalo.png";
-import qr from "../assets/qr.jpeg";
+
 
 import { useState } from "react";
 
@@ -59,7 +59,7 @@ const Varios = () => {
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
                   window.open(
-                    "https://maps.app.goo.gl/5Avh1ejqbVa9iP316?g_st=aw"
+                    "https://maps.app.goo.gl/hdcscRgTkwDuMyhk7"
                   )
                 }
               >
@@ -86,37 +86,11 @@ const Varios = () => {
                 <br /> Evitar el color celeste y azul
               </p>
               <div className="color-palette">
-                <div className="color-circle verde" title="Verde"></div>
+                <div className="color-circle celeste me-1" title="Verde"></div>
+                <div className="color-circle azul" title="Verde"></div>
               </div>
             </aside>
-            <aside className="col-xs-12 text-center playlist mb-4">
-              <img src={Notamusical} alt="" width={150} />
-              <h4
-                className="fs-1 mt-5"
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
-                Playlist
-              </h4>
-              <p
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
-                ¡Creemos la playlist de la noche juntos!
-              </p>
-              <button
-                className="btn-varios mt-3 mb-5"
-                onClick={() =>
-                  window.open(
-                    "https://open.spotify.com/playlist/5g3p3R0ducJAilePxlNoy6?si=Unt-MiD-R1i7tTblbFwSaA&pt=595dcfc4382e657956463922ed6acb99"
-                  )
-                }
-              >
-                Sugerir canción
-              </button>
-            </aside>
+            
             <aside className="col-xs-12 text-center asistencia mb-4">
               <img src={asistencia} alt="" width={100} />
               <h4 className="mt-5">Asistencia</h4>
@@ -130,14 +104,14 @@ const Varios = () => {
               </p>
               <button
                 className="btn-varios mt-3 mb-2"
-                onClick={() => window.open("https://wa.link/4rs19n")}
+                onClick={() => window.open("https://wa.link/ummw8g")}
               >
-                Confirmar a Mamá Pilar
+                Confirmar a Mamá Lourdes
               </button>
               <p>o</p>
               <button
                 className="btn-varios mt-2 mb-5"
-                onClick={() => window.open("https://wa.link/c9xepb")}
+                onClick={() => window.open("https://wa.link/44z6c7")}
               >
                 Confirmar a Pilar
               </button>
@@ -188,26 +162,7 @@ const Varios = () => {
                 </div>
               )}
             </aside>
-            <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
-              <img src={brillo} alt="" className="brillo brillo-top" />
-
-              <h4
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
-                Subi tus fotos
-              </h4>
-              <img src={qr} alt="" width={300} />
-              <p
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
-                Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos
-                acá!
-              </p>
-            </aside>
+           
           </article>
         </section>
       </article>
@@ -215,7 +170,7 @@ const Varios = () => {
       <article className=" fin d-flex flex-column justify-content-center align-items-center position-relative">
         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4 data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2 data-aos="zoom-in-down">Pilar</h2>
+        <h2 data-aos="zoom-in-down">Lourdes</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
