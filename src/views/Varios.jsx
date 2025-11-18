@@ -113,7 +113,7 @@ const Varios = () => {
                 className="btn-varios mt-2 mb-5"
                 onClick={() => window.open("https://wa.link/44z6c7")}
               >
-                Confirmar a Pilar
+                Confirmar a Lourdes
               </button>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
