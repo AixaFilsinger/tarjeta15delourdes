@@ -280,6 +280,7 @@ body{
   font-family: 'Amoresa', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
    
 }
 .contador h3{
@@ -287,10 +288,12 @@ body{
    font-family: 'Montserrat', sans-serif;
    line-height: 1;
    margin: 0;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
    
 }
 .contador small{
   font-family:'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
    
 }
 .dalePlay{
@@ -318,7 +321,7 @@ body{
 }
 
 .varios0{
-  background: url(./assets/fondodorado.jpg) no-repeat;
+  background: url(./assets/fondodorado1.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -393,14 +396,17 @@ body{
 }
 
 .fin::before {
+ 
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
+
 
 .fin h2,
 .fin h4,
