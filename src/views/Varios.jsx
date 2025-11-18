@@ -23,15 +23,17 @@ const Varios = () => {
               <img src={copas} alt="" width={150} />
               <h4
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 ¿Cuando?
               </h4>
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 6 de Diciembre <br />
                 21hs a 05hs
@@ -41,16 +43,18 @@ const Varios = () => {
               <img src={boladisco} alt="" width={150} />
               <h4
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
                 className="mt-5"
               >
                 ¿Dónde?
               </h4>
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 Salón Geminis
                 <br />
@@ -72,16 +76,18 @@ const Varios = () => {
               <img src={dressCode} alt="" width={200} />
               <h4
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
                 className="mt-4"
               >
                 DressCode
               </h4>
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 Elegante
                 <br /> Evitar el color celeste y azul
@@ -95,15 +101,17 @@ const Varios = () => {
           <img src={Notamusical} alt="" width={150} />
           <h4
             data-aos="fade-right"
-            data-aos-offset="300"
+            data-aos-offset="100"
             data-aos-easing="ease-in-sine"
+            data-aos-duration="300"
           >
             Playlist
           </h4>
           <p
             data-aos="fade-right"
-            data-aos-offset="300"
+            data-aos-offset="100"
             data-aos-easing="ease-in-sine"
+            data-aos-duration="300"
           >
             ¡Creemos la playlist de la noche juntos!
           </p>
@@ -123,8 +131,9 @@ const Varios = () => {
               <h4 className="mt-5">Asistencia</h4>
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 Soñé con este día y me gustaría vivirlo con quienes más
                 quiero...
@@ -147,8 +156,9 @@ const Varios = () => {
               <img src={regalo} alt="" width={150} />
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 El mejor regalo que pueda tener será tu presencia
               </p>
@@ -194,16 +204,18 @@ const Varios = () => {
 
               <h4
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 Subi tus fotos
               </h4>
               <img src={qr} alt="" width={300} />
               <p
                 data-aos="fade-right"
-                data-aos-offset="300"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine"
+                data-aos-duration="300"
               >
                 Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos
                 acá!
