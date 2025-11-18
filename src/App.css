@@ -33,7 +33,7 @@ body{
 }
 .inicio{
   width: 100%;
-  height: 100dvh;
+  min-height: 100%;
   background: url(/src/assets/fondoini.png);
   background-size: cover;
  
@@ -101,7 +101,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-80%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-51%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
@@ -121,7 +121,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-80%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-50%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
