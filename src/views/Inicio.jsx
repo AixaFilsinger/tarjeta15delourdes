@@ -8,6 +8,7 @@ import ReproductorMusic from "/src/views/ReproductorMusic"
 
 const Inicio = () => {
     return (
+      
          <section className=" portada contenedor-marco-principal">
             <img src={esquina1} alt="Esquina dorada" className="esquina superior-izquierda" />
             <img src={esquina2} alt="Esquina dorada" className="esquina superior-derecha" />
@@ -37,11 +38,18 @@ const Inicio = () => {
             </aside>
            <article className="marco d-flex flex-column justify-content-center align-items-center">
             {/* La imagen es el fondo */}
-            <img src={marco2} alt="Marco de nombre" width={300} className="imagen-fondo" /> 
+            <img src={marco2} alt="Marco de nombre" className="imagen-fondo" /> 
             
             {/* El h1 es el texto que va encima y centrado */}
             <h1 className="enfoque nombre-superpuesto">
                 {"Lourdes".split("").map((letra, i) => (
+                    <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
+                        {letra}
+                    </span>
+                ))}
+            </h1>
+            <h1 className="enfoque nombre-superpuesto2">
+                {"Mamani".split("").map((letra, i) => (
                     <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
                         {letra}
                     </span>
