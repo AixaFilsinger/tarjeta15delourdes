@@ -37,7 +37,7 @@ const Varios = () => {
               </p>
             </aside>
             <aside className="col-xs-12 text-center donde mb-4 position-relative">
-              <img src={boladisco} alt="" width={100} />
+              <img src={boladisco} alt="" width={150} />
               <h4
                 data-aos="fade-right"
                 data-aos-offset="300"
@@ -68,7 +68,7 @@ const Varios = () => {
               <img src={brillo} alt="" className="brillo brillo-bottom" />
             </aside>
             <aside className="col-xs-12 text-center dressCode mb-5">
-              <img src={dressCode} alt="" width={100} />
+              <img src={dressCode} alt="" width={150} />
               <h4
                 data-aos="fade-right"
                 data-aos-offset="300"
@@ -92,7 +92,7 @@ const Varios = () => {
             </aside>
             
             <aside className="col-xs-12 text-center asistencia mb-4">
-              <img src={asistencia} alt="" width={100} />
+              <img src={asistencia} alt="" width={150} />
               <h4 className="mt-5">Asistencia</h4>
               <p
                 data-aos="fade-right"
@@ -117,7 +117,7 @@ const Varios = () => {
               </button>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
-              <img src={regalo} alt="" width={100} />
+              <img src={regalo} alt="" width={150} />
               <p
                 data-aos="fade-right"
                 data-aos-offset="300"

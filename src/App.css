@@ -94,7 +94,7 @@ body{
 .imagen-fondo {
  
     
-    width: 400px; /* Asegura el tamaño de la imagen, si no lo has definido en el HTML */
+    width: 350px; /* Asegura el tamaño de la imagen, si no lo has definido en el HTML */
    
 }
 
@@ -109,7 +109,7 @@ body{
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
-    font-size: 3rem; /* Ajusta este valor si es necesario */
+    font-size: 2.5rem; /* Ajusta este valor si es necesario */
     color: #8D9F6C;
     
     /* Muy importante: elimina cualquier margen que pueda desplazarlo */
@@ -125,11 +125,11 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-49%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-50%, -560%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
-    font-size: 2.5rem; /* Ajusta este valor si es necesario */
+    font-size: 2rem; /* Ajusta este valor si es necesario */
     color: #8D9F6C;
     
     /* Muy importante: elimina cualquier margen que pueda desplazarlo */
@@ -321,7 +321,7 @@ body{
 }
 
 .varios0{
-  background: url(./assets/fondodorado1.png) no-repeat;
+  background: url(./assets/azul.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -389,7 +389,7 @@ body{
 .fin {
   height: 100vh;
   position: relative;
-  background: url(./assets/castillofinal.png);
+  background: url(./assets/ceni.jpg);
   background-size: cover;
   
  /* para que el overlay no se escape */
