@@ -82,24 +82,16 @@ body{
 }
 
 /* --- ESTILOS PARA EL CONTENEDOR PADRE --- */
-.marco {
-    position: relative; /* ¡CRUCIAL! Los hijos absolutos se posicionarán respecto a este. */
-    display: inline-block; /* Esto asegura que el `article` se ajuste al tamaño de la imagen */
-    /* Puedes ajustar el width si el de la imagen no es suficiente */
-    /* width: 300px; */ 
-    line-height: 0; /* Esto ayuda a eliminar espacio extra debajo de la imagen */
-    margin: 0;
-    padding: 0;
-}
+
 .reproductor{
   margin-bottom: 8rem;
 }
 /* --- ESTILOS PARA LA IMAGEN DE FONDO --- */
-.marco .imagen-fondo {
+.imagen-fondo {
  
-    display: block; /* Elimina espacio extra debajo de la imagen si la tienes como inline */
+    
     width: 400px; /* Asegura el tamaño de la imagen, si no lo has definido en el HTML */
-    height: auto; /* Mantiene la proporción de la imagen */
+   
 }
 
 /* --- ESTILOS PARA EL H1 QUE VA ENCIMA Y CENTRADO --- */
@@ -109,7 +101,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-100%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-80%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
@@ -129,7 +121,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-100%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-80%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
@@ -210,7 +202,7 @@ body{
 
 .music-player-card {
   width: 340px;
-  padding: 15px;
+  padding: 12px;
   background: rgba(255, 255, 255, 0.15); /* fondo semi-transparente */
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 25px; /* rectángulo con bordes ovalados */
