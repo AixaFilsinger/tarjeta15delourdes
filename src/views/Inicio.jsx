@@ -14,6 +14,7 @@ const Inicio = () => {
             <img src={esquina2} alt="Esquina dorada" className="esquina superior-derecha" />
             <img src={esquina3} alt="Esquina dorada" className="esquina inferior-izquierda" />
             <img src={esquina4} alt="Esquina dorada" className="esquina inferior-derecha" />
+           
             <aside className="d-flex flex-column justify-content-center align-items-center mt-5">
 
 <aside className="linea">

@@ -61,6 +61,7 @@ const ReproductorMusic = () => {
   };
 
   return (
+    
     <section className="container text-center reproductor mt-5 mb-5" data-aos="fade-up">
       <h3 className="dalePlay">Dale Play a mi canción favorita</h3>
       <div className="music-player-card text-center my-4">
@@ -93,6 +94,9 @@ const ReproductorMusic = () => {
         ></audio>
       </div>
     </section>
+    
+  
+    
   );
 };
 

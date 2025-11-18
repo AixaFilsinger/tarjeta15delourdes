@@ -493,5 +493,10 @@ body{
 }
 
 
-
+.qr{
+  font-family: "Riwaya", sans-serif;
+ color: white;
+ margin-top: 10px;
+ font-size: 2rem;
+}
 

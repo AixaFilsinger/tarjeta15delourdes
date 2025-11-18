@@ -5,6 +5,7 @@ import Notamusical from "../assets/disco.png";
 import copas from "../assets/reloj.png";
 import asistencia from "../assets/boligrafo.png";
 import regalo from "../assets/regalo.png";
+import qr from "../assets/qr.jpeg"
 
 
 import { useState } from "react";
@@ -90,7 +91,33 @@ const Varios = () => {
                 <div className="color-circle azul" title="Verde"></div>
               </div>
             </aside>
-            
+               <aside className="col-xs-12 text-center playlist mb-4">
+          <img src={Notamusical} alt="" width={150} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            PLAYLIST
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            ¡Creemos la playlist de la noche juntos!
+          </p>
+          <button
+            className="btn-varios mt-3 mb-5"
+            onClick={() =>
+              window.open(
+                "https://open.spotify.com/playlist/3z3Bj2T4vFXeprU0wTSpjD?si=mnpG2ZCLTSi9UJG334AmZQ&pi=DRZvyYVQRmSFQ"
+              )
+            }
+          >
+            Sugerir canción
+          </button>
+        </aside>
             <aside className="col-xs-12 text-center asistencia mb-4">
               <img src={asistencia} alt="" width={150} />
               <h4 className="mt-5">Asistencia</h4>
@@ -162,7 +189,26 @@ const Varios = () => {
                 </div>
               )}
             </aside>
-           
+            <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+              <img src={brillo} alt="" className="brillo brillo-top" />
+
+              <h4
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                Subi tus fotos
+              </h4>
+              <img src={qr} alt="" width={300} />
+              <p
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos
+                acá!
+              </p>
+            </aside>
           </article>
         </section>
       </article>
