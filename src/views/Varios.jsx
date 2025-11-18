@@ -145,12 +145,12 @@ const Varios = () => {
 
                   {/* Los <p> ahora sí se ven */}
                   <p className="mb-1">
-                    <strong>Alias:</strong> natalia.761.sofa.mp
+                    <strong>Alias:</strong> saramalvina1982 
                   </p>
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Natalia René Delgado
+                    Sara Malvina
                   </p>
 
                   <button
