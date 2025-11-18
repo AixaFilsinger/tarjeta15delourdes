@@ -54,7 +54,7 @@ body{
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
   margin-bottom: 2rem;
-  margin-top: 6rem;
+  margin-top: 5rem;
   z-index: 2;
 }
 
@@ -88,8 +88,12 @@ body{
     /* Puedes ajustar el width si el de la imagen no es suficiente */
     /* width: 300px; */ 
     line-height: 0; /* Esto ayuda a eliminar espacio extra debajo de la imagen */
+    margin: 0;
+    padding: 0;
 }
-
+.reproductor{
+  margin-bottom: 8rem;
+}
 /* --- ESTILOS PARA LA IMAGEN DE FONDO --- */
 .marco .imagen-fondo {
  
@@ -105,7 +109,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-150%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-100%, -500%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;
@@ -125,7 +129,7 @@ body{
     /* Centrado perfecto: */
     top: 50%; /* 50% desde arriba del contenedor padre (.marco) */
     left: 50%; /* 50% desde la izquierda del contenedor padre (.marco) */
-    transform: translate(-150%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
+    transform: translate(-100%, -550%); /* Ajusta el elemento para que su propio centro esté en 50%, 50% */
 
     /* Tus estilos de fuente existentes: */
     font-family: 'Amoresa', cursive;

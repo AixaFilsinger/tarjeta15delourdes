@@ -36,7 +36,7 @@ const Inicio = () => {
 
     
             </aside>
-           <article className="marco d-flex flex-column justify-content-center align-items-center">
+           <article className="marco d-flex flex-column align-items-center">
             {/* La imagen es el fondo */}
             <img src={marco2} alt="Marco de nombre" className="imagen-fondo" /> 
             
