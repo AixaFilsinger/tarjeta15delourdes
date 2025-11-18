@@ -98,7 +98,7 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            PLAYLIST
+            Playlist
           </h4>
           <p
             data-aos="fade-right"
