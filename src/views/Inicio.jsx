@@ -54,9 +54,9 @@ const Inicio = () => {
                         {letra}
                     </span>
                 ))}
-            </h1>
+            </h1><ReproductorMusic></ReproductorMusic>
         </article>
-      <ReproductorMusic></ReproductorMusic>
+      
       
     
     </section>
