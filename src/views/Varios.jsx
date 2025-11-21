@@ -36,7 +36,7 @@ const Varios = () => {
                 data-aos-duration="300"
               >
                 6 de Diciembre <br />
-                21hs a 05hs
+                22hs a 05hs
               </p>
             </aside>
             <aside className="col-xs-12 text-center donde mb-4 position-relative">
