@@ -98,7 +98,7 @@ const Varios = () => {
               </div>
             </aside>
                <aside className="col-xs-12 text-center playlist mb-4">
-          <img src={Notamusical} alt="" width={150} />
+          <img src={Notamusical} alt="" width={150} className="ms-1"/>
           <h4
             data-aos="fade-right"
             data-aos-offset="100"
